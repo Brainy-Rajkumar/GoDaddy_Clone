@@ -1,0 +1,512 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+nav {
+  width: 100%;
+  height: 62px;
+  background-color: #2b2b2b;
+  display: flex;
+  justify-content: space-between;
+}
+
+#link-1 {
+  display: flex;
+  align-items: center;
+  padding-left: 59px;
+  color: white;
+}
+
+.logo-mark {
+  width: 170px;
+  fill: white;
+  padding-right: 20px;
+}
+
+#link-1 > span {
+  font-size: 10px;
+  font-weight: 700;
+  position: absolute;
+  top: 46px;
+  left: 179px;
+}
+
+#link-1 > a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  height: 40px;
+  width: auto;
+  padding: 10px;
+}
+
+#link-1 > a:hover {
+  height: 40px;
+  width: auto;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #737373;
+}
+
+#link-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 26%;
+  padding-right: 79px;
+}
+
+#link-2 > form {
+  height: 40px;
+  width: auto;
+  padding: 10px;
+}
+
+.dropdown-icon {
+  position: relative;
+  right: 7px;
+}
+
+#link-2 > button {
+  margin-right: 8px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 15px;
+  font-weight: 500;
+  height: 40px;
+  width: auto;
+  padding: 10px;
+}
+
+#link-2 > button:hover {
+  height: 40px;
+  width: auto;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #737373;
+}
+
+#link-2 > form:hover {
+  height: 40px;
+  width: auto;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #737373;
+}
+
+#sec-1 {
+  height: 89px;
+  background: white;
+  display: flex;
+}
+
+#searchField {
+  width: 60%;
+  margin-top: 15px;
+}
+
+#searchField > form {
+  display: flex;
+  justify-content: right;
+}
+
+#searchField > form > input::placeholder {
+  padding-left: 30px;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+#searchField > form > #search-color {
+  background-color: #00838c;
+  border: none;
+  padding: 21px 30px;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+#searchField > form > #search-color:hover {
+  background-color: #05585e;
+}
+
+#topIcons {
+  width: 40%;
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 70px;
+  font-size: small;
+  font-weight: 600;
+}
+
+#topIcons > a {
+  margin-left: 0;
+  margin-right: 15px;
+  text-decoration: none;
+  color: #737373;
+}
+
+#topIcons > svg {
+  margin-right: 0;
+}
+
+#sec-2 {
+  height: 410px;
+  background-color: white;
+  margin-bottom: 89px;
+  display: flex;
+}
+
+#sec-2 button {
+  transition: 0.5s;
+}
+
+#sec-2 button:hover {
+  transform: scale(1.02);
+}
+
+#content-1 {
+  width: 64%;
+  margin-left: 59px;
+  margin-right: 18px;
+  background-image: url(./images/intl-mrq-domain-lp-landscape.jpg);
+  background-size: cover;
+  background-position-x: 53%;
+}
+
+#content-1 > div {
+  width: 40%;
+  margin: 45px auto 40px 42px;
+}
+
+#content-1 > div > p {
+  margin-bottom: 24px;
+  font-weight: 500;
+}
+
+#content-1 > div > h1 {
+  margin-bottom: 24px;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+#content-1 > div > button {
+  margin-bottom: 24px;
+  padding: 16px 18px;
+  border-radius: 5px;
+  border: none;
+  background-color: #000;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#content-2 {
+  width: 26%;
+  height: 100%;
+  background: #000;
+  margin-bottom: 62px;
+  background-color: #fde9db;
+}
+
+#content-2 > div {
+  width: 80%;
+  margin: 45px auto 40px 42px;
+}
+
+#content-2 > div > p {
+  margin-bottom: 24px;
+  font-weight: 500;
+}
+
+#content-2 > div > h1 {
+  margin-bottom: 24px;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+#content-2 > div > button {
+  margin-bottom: 24px;
+  margin-right: 10px;
+  padding: 16px 18px;
+  border-radius: 5px;
+  border: none;
+  background-color: #000;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+#sec-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#sec-3 > h1 {
+  font-size: 54px;
+  margin-bottom: 18px;
+}
+
+#sec-3 > p {
+  font-weight: 500;
+  font-size: 19px;
+  margin-bottom: 48px;
+}
+
+#content-3 {
+  display: flex;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#div-1-content {
+  margin-right: 70px;
+}
+
+#content-3 > div > img {
+  width: 620px;
+  height: 372px;
+  margin-bottom: 20px;
+}
+
+#content-3 > div > h1 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+#content-3 > div > h1 > span {
+  margin-left: 10px;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+#content-3 > div > p {
+  margin-bottom: 20px;
+}
+
+#content-3 > div > button {
+  padding: 16px 48px;
+  border: 2px solid;
+  border-radius: 5px;
+  margin: 10px auto 30px;
+  font-weight: 500;
+  font-size: 15px;
+  background: transparent;
+  transition: 0.2s;
+}
+
+#content-3 > div > button:hover::after {
+  content: " \279C";
+
+}
+
+#content-3 > div > button:hover {
+  padding: 16px 48px 16px 46px;
+}
+
+#sec-4 {
+  background-image: url(./images/mrq-Guide-IN-PK-Suraiya-desktop.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-position-x: -60px; */
+  height: 69vh;
+  width: 100%;
+  display: flex;
+  margin-bottom: 70px;
+}
+
+#sec-4 > div {
+  width: 50%;
+  margin: 25px auto auto 60px;
+}
+
+#sec-4 > div > p {
+  font-size: 13px;
+  line-height: 23px;
+}
+
+#sec-4 > div > h1 {
+  margin-top: 45px;
+  margin-bottom: 20px;
+  font-size: 55px;
+}
+
+#sec-4 > div > button {
+  margin-top: 30px;
+  padding: 20px 52px;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 15px;
+  background: black;
+  color: white;
+  transition: 1s;
+}
+
+#sec-4 > div > button:hover::after{
+  content: " \279C";
+}
+
+#sec-5 > p {
+  margin-left: 60px;
+  margin-bottom: 35px;
+}
+
+#sec-5 > h4 {
+  padding: 45px 0;
+  text-align: center;
+  background-color: #f5f7f8;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+#sec-6 > div {
+  padding: 20px;
+  padding-left: 60px;
+  background-color: #2b2b2b;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+#sec-6 > .sub-section {
+  display: block;
+  background-color: black;
+  color: #444444;
+  padding: 28px 100px;
+  border-bottom: 1px solid white;
+}
+
+.sub-section > p {
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: black;
+  color: #444444;
+  border-bottom: 2px solid white;
+}
+
+footer > div {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 80px 38px;
+}
+
+footer > div > div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  border-radius: 2px solid white;
+}
+
+footer > div > div > p {
+  color: white;
+  font-weight: 600;
+}
+
+/* footer > div > div > a:active {
+  color: white;
+  text-decoration: none;
+} */
+
+/* footer > div > div > a:visited {
+  color: white;
+  text-decoration: none:
+} */
+
+footer > div > div > a {
+  text-decoration: none;
+  padding-top: 10px;
+  color: #bac0c3;
+  font-size: 13px;
+  line-height: 25px;
+}
+
+footer > div > div > a:hover {
+  text-decoration: underline;
+}
+
+.last-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.last-item > div {
+  margin-top: 0;
+  display: block;
+}
+
+.last-item > div > a {
+  margin: 15px;
+  position: relative;
+  bottom: 6px;
+  font-size: 15px;
+  font-weight: 600;
+  word-spacing: 4px;
+  margin-bottom: 0;
+}
+
+#section-link {
+  background-color: black;
+  border-bottom: 2px solid white;
+  padding: 20px 70px;
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#last {
+  background-color: #000;
+  color: white;
+  width: 85%;
+}
+
+#last > p {
+  margin-bottom: 10px;
+}
+
+#last > p > a {
+  text-decoration: none;
+  color: white;
+}
+
+#last-link {
+  width: 15%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#last-link > a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+#chat-button {
+  height: 45px;
+  width: 170px;
+  border: 3px solid blue;
+  border-radius: 45px;
+  background-color: white;
+  margin: 20px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 11px 30px;
+}
+
+#button-content {
+  display: none;
+  width: 80vh;
+}
